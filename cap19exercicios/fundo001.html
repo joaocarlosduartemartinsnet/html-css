@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste de imagens de fundo</title>
     <style>
+       body{
+          background-image: url('./imagens/wallpaper001.jpg');
+       }
+
+       body > h1{
+           color: rgb(0, 0, 0);
+           font-family: arial,sans-serif;
+           font-size: 2em;
+       }
+
        div.quadrado { 
            display: inline-block;
            border: 3px solid #201b1b;
@@ -13,6 +23,11 @@
            background-color: grey;
            width: 20em; 
            height: 20em;
+       }
+       div.quadrado > h2{ 
+           color: rgb(0, 0, 0);
+           font-family: arial,sans-serif;
+           font-size: 2em;
        }
 
        div#q1{
@@ -24,19 +39,22 @@
        }
 
        div#q3{
-           background-image: url('./imagens/pattern001.png');
+           background-image: url('./imagens/pattern003.png');
        }
     </style>
 </head>
 <body>
+    <h1>EXISTEM TRÊS CONFIGURAÇÕES DE FUNDO</h1>
     <div class="quadrado" id="q1">
-       
+       <h2>POR COR</h2>
     </div>
+    
     <div class="quadrado" id="q2">
-
+        <h2>POR GRADIENTE</h2>
     </div>
-    <div class="quadrado" id="q3">
 
+    <div class="quadrado" id="q3">
+        <h2>POR IMAGEM</h2>
     </div>
     
 </body>
