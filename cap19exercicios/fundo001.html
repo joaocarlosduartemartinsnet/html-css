@@ -8,20 +8,34 @@
     <style>
        div.quadrado { 
            display: inline-block;
-           border: 1px solid #201b1b;
+           border: 3px solid #201b1b;
+           border-radius: 10px;
+           background-color: grey;
            width: 20em; 
            height: 20em;
+       }
+
+       div#q1{
+           background-color: lightblue;
+       }
+
+       div#q2{
+           background-image: linear-gradient(to bottom, orange, red);
+       }
+
+       div#q3{
+           background-image: url('./imagens/pattern001.png');
        }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
+       
+    </div>
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
-
-    </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
     
