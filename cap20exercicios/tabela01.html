@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas html</title>
+    <style>
+        body{
+            font-family: 'arial', sans-serif;
+        }
+
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        tr.linha{
+            background-color: gray;
+        }
+
+        td.dado{
+            background-color: yellow;
+        }
+
+        td{
+            border: 1px solid rgb(0, 0, 0);
+            padding: 8px;
+        }
+    </style>
 </head>
+
 <body>
+    <h1>tabela 1</h1>
     <table>
-       
+        <tr>
+            <td class="dado">A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr >
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="linha">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
     </table>
 </body>
+
 </html>
